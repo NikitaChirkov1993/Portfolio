@@ -1,0 +1,31 @@
+.info__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+    min-height: 695px;
+    background-image: url("/imgs/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    text-align: center;
+}
+
+.info__title_1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.info__title_1 span {
+    color: var(--purple);
+}
+
+.info__title_2 {
+    font-size: 40px;
+}
+
+.info__title_3 {
+    font-size: 20px;
+}

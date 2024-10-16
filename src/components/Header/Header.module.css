@@ -1,6 +1,6 @@
 .header {
     background: var(--black);
-    min-height: 80px;
+    /* min-height: 80px; */
     padding: 20px 0;
 }
 
@@ -27,13 +27,29 @@
     transition: width 0.5s ease-in-out;
 }
 
-.nav__list {
+.nav__list_desktop {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 40px;
     font-size: 20px;
     font-weight: 500;
+}
+
+.nav__list_mobile {
+    display: none;
+}
+
+.nav__icon {
+    width: 30px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        opacity: 0.3;
+    }
+
+    &:active {
+        opacity: 0.3;
+    }
 }
 
 .nav__item {
@@ -63,5 +79,17 @@
 
     &:active {
         opacity: 0.3;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .nav__list_desktop {
+        display: none;
+    }
+    .nav__list_mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
     }
 }

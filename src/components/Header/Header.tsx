@@ -12,7 +12,7 @@ const Header = () => {
                     <NavLink to={"/"}>
                         <div className={style.logo}>Portfolio</div>
                     </NavLink>
-                    <ul className={style.nav__list}>
+                    <ul className={style.nav__list_desktop}>
                         <NavLink
                             className={({ isActive }) => (isActive ? activeLink : normalLink)}
                             to={"/"}>
@@ -29,6 +29,26 @@ const Header = () => {
                             className={({ isActive }) => (isActive ? activeLink : normalLink)}
                             to={"/сontacts"}>
                             <li className={style.nav__item}>Контакты</li>
+                        </NavLink>
+                    </ul>
+
+                    <ul className={style.nav__list_mobile}>
+                        <NavLink
+                            className={({ isActive }) => (isActive ? activeLink : normalLink)}
+                            to={"/"}>
+                             <img className={style.nav__icon} src="/imgs/3643769-building-home-house-main-menu-start_113416.svg" alt="Главная" />
+                        </NavLink>
+
+                        <NavLink
+                            className={({ isActive }) => (isActive ? activeLink : normalLink)}
+                            to={"/projects"}>
+                           <img className={style.nav__icon}  src="/imgs/office_suitcase_profession_work_job_briefcase_business_icon_232665.svg" alt="Проекты" />
+                        </NavLink>
+
+                        <NavLink
+                            className={({ isActive }) => (isActive ? activeLink : normalLink)}
+                            to={"/сontacts"}>
+                            <img className={style.nav__icon}  src="/imgs/2849835-call-cell-communication-interface-multimedia-phone-telephone_108000.svg" alt="Контакты" />
                         </NavLink>
                     </ul>
                 </nav>
