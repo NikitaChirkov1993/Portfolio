@@ -1,0 +1,28 @@
+.footer {
+    background: var(--black);
+    min-height: 200px;
+    padding: 60px 0 50px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.wrapper__text {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 133%;
+}
+
+.icon img{
+    width:60px   ;
+}
+
+.wrapper__icon {
+    display: flex;
+    gap: 25px;
+}

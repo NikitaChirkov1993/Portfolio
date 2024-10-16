@@ -1,3 +1,4 @@
+import Footer from "../../components/Header/Footer/Footer";
 import Header from "../../components/Header/Header";
 
 const Projects = () => {
@@ -9,6 +10,7 @@ const Projects = () => {
                     <div>Проекты</div>
                 </div>
             </main>
+            <Footer/>
         </div>
     );
 };
