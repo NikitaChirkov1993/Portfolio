@@ -23,8 +23,8 @@ const Contacts = () => {
                                 <a href="tel:+79051234567">+7 (937) 347-23-27</a>
                             </p>
                             <div className={style.wrapper__social}>
-                                <img src="/imgs/social/Telegram.jpg" alt="" />
-                                <img src="/imgs/social/WhatsApp.jpg" alt="" />
+                                <img className={style.wrapper__social_img} src="/imgs/social/Telegram.jpg" alt="" />
+                                <img className={style.wrapper__social_img} src="/imgs/social/WhatsApp.jpg" alt="" />
                             </div>
                         </li>
 
