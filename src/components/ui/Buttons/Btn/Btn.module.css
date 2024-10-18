@@ -2,8 +2,7 @@
     display: inline-block;
     height: 48px;
     padding: 12px 28px;
-    border-radius: 5px;
-    background-color: var(--accent);
+    border-radius: 20px;
     color: var(--white);
     letter-spacing: 0.15px;
     font-size: 16px;
@@ -15,4 +14,17 @@
     &:active {
         opacity: 0.3;
     }
+}
+
+.btnResume {
+    background-color: var(--purple);
+}
+
+.btnCinemaguied {
+    background-color: var(--background-btn-1);
+}
+
+.btnYoldi {
+    background-color: var(--background-btn-2);
+    color:var(--blackpure) ;
 }
