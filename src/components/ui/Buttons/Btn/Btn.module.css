@@ -8,9 +8,11 @@
     font-size: 16px;
     font-weight: 500;
     transition: opacity 0.2s ease-in;
+
     &:hover {
         opacity: 0.3;
     }
+
     &:active {
         opacity: 0.3;
     }
@@ -26,5 +28,12 @@
 
 .btnYoldi {
     background-color: var(--background-btn-2);
-    color:var(--blackpure) ;
+    color: var(--blackpure);
+}
+
+.btnWhatsapp {
+    background-color: var(--background-btn-3);
+}
+.btnTelegram {
+    background-color: #0088cc;
 }

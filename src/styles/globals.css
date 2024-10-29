@@ -37,45 +37,12 @@
 	--purple: #5c62ec;
 	--background-btn-1: #6a5dc2;
 	--background-btn-2: #fffa65;
+	--background-btn-3: #25D366;
 
-	/* Nav */
-	--nav-bg: var(--black);
-	--nav-border: var(--black-border);
-	--nav-text: var(--white);
-
-	/* Header */
-	--header-bg: var(--black);
-	--header-text: var(--white);
-
-	/* Footer */
-	--footer-bg: var(--black);
-	--footer-text: var(--white);
-
-	/* Light mode */
-	--page-bg: var(--white);
-	--text-color: var(--black);
-	--accent: var(--purple);
-	--title-1: var(--accent);
-
-	--project-card-bg: var(--white);
-	--project-card-text: var(--black);
-	--box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
 
 	/* Fonts */
 	--font-family: "Play", sans-serif;
 	--second-family: "Open Sans", sans-serif;
-}
-
-.dark {
-	/* Dark mode */
-	--page-bg: #252526;
-	--text-color: var(--white);
-
-	--title-1: var(--white);
-
-	--project-card-bg: var(--black);
-	--project-card-text: var(--white);
-	--box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
 
 body {

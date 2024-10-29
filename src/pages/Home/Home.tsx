@@ -14,12 +14,17 @@ const Home = () => {
                         <strong className={style.info__title_1}>
                             Привет, меня зовут <span>Никита</span>
                         </strong>
-                        <strong className={style.info__title_2}>я фронтенд-разработчик</strong>
-                        <strong className={style.info__title_3}>со страстью к работе и творчеству.</strong>
-
-                        <a href="/docs/Resume.docx">
+                        <strong className={style.info__title_2}>я фронтенд-разработчик </strong>
+                        <strong className={style.info__title_3}>с опытом работы более 3 лет</strong>
+{/*
+                        <a target="blank" href="/docs/resume CHNS.pdf">
                             <Btn backgroundClass="btnResume">
                                 Скачать резюме
+                            </Btn>
+                        </a> */}
+                        <a target="blank" href="https://myresume.ru/resume/OWtsoofpf6y/">
+                            <Btn backgroundClass="btnResume">
+                                Посмотреть резюме
                             </Btn>
                         </a>
 
