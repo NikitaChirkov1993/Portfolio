@@ -16,7 +16,7 @@ const Projects = () => {
                                 <img className={style.project__img} src="/imgs/projects/Cinemaguied3.png" alt="Cinemaguied" />
                             </div>
 
-                            <a className={style.link} href="http://localhost:5173/" target="blank">
+                            <a className={style.link} href="https://cinema-guied.vercel.app/" target="blank">
                                 <Btn backgroundClass="btnCinemaguied">
                                     Перейти на сайт
                                 </Btn>
@@ -27,7 +27,7 @@ const Projects = () => {
                                 <img className={style.project__img} src="/imgs/projects/Yoldi4.png" alt="Yoldi" />
                             </div>
 
-                            <a className={style.link} href="http://localhost:3000" target="blank">
+                            <a className={style.link} href="https://yoldi-phi.vercel.app/accounts" target="blank">
                                 <Btn backgroundClass="btnYoldi">
                                     Перейти на сайт
                                 </Btn>

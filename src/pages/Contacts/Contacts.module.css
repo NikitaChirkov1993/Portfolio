@@ -70,4 +70,7 @@
     .content__list {
         gap: 20px;
     }
+    .conntent__wrapper_btn {
+        flex-direction: column;
+    }
 }
