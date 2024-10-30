@@ -16,12 +16,7 @@ const Home = () => {
                         </strong>
                         <strong className={style.info__title_2}>я фронтенд-разработчик </strong>
                         <strong className={style.info__title_3}>с опытом работы более 3 лет</strong>
-{/*
-                        <a target="blank" href="/docs/resume CHNS.pdf">
-                            <Btn backgroundClass="btnResume">
-                                Скачать резюме
-                            </Btn>
-                        </a> */}
+
                         <a target="blank" href="https://myresume.ru/resume/OWtsoofpf6y/">
                             <Btn backgroundClass="btnResume">
                                 Посмотреть резюме
@@ -32,7 +27,7 @@ const Home = () => {
                     <ul className={style.skill__list}>
                         {skills.map((item, index) => {
                             return (
-                                <li className={style.skill_item}>
+                                <li key={index} className={style.skill_item}>
                                     <div className={style.skill__img_wrapper}>
                                         <img className={style.skill__img} src={item.img} alt={`фото${index + 1}`} />
                                     </div>
